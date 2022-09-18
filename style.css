@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+  background: #e0e0e0;
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+  width: 320px;
+  height: 490px;
+border-radius: 20px;
+border-radius: 18px;
+background: #FFFF00;
+box-shadow:  5px 5px 10px #c1c1c1,
+             -5px -5px 10px #ffffff;
+  margin: 0 auto;
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.container .result {
+  width: 100%;
+  height: 100px;
+border-radius: 10px;
+border-radius: 18px;
+background: #ff000f;
+box-shadow:  5px 5px 10px #c1c1c1,
+             -5px -5px 10px #ffffff;
+}
+.container .result p {
+  font-size: 25pt;
+  overflow-y: auto;
+  text-align: right;
+  color: #00000;
+  padding-right: 10px;
+  
+}
+
+.container .buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+}
+.container .buttons .button, .container .buttons .num-button  {
+  cursor: grab;
+  text-align: center;
+  width: 60px;
+  font-size:18px;
+  height: 60px;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+border-radius: 50%;
+background: #00ff00;
+box-shadow:  5px 5px 10px #c1c1c1,
+             -5px -5px 10px #ffffff;
+}
+.button:hover{
+  color: #3498db;
+border-radius: 20px;
+background: #d11a1a;
+box-shadow:  5px 5px 10px #a31414,
+             -5px -5px 10px #ff2020;
+ 
+}
+
+/*  Big Button */
+.container .buttons .zero {
+  grid-column: 1/ 3;
+  width: 100%;
+  font-size: 20px;
+  color: #00000;
+  border-radius: 10px;
+border-radius: 18px;
+background: #ff00ff;
+box-shadow:  5px 5px 10px #c1c1c1,
+             -5px -5px 10px #ffffff;
+}
+
+.action-btn {
+  color: grey;
+  font-weight: bold;
+}
+.calc-action-btn{
+  color: #00000;
+  font-size: 60px;
+  font-weight: bold;
+
+}
